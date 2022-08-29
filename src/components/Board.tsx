@@ -1,7 +1,7 @@
 import { Circle, Flex } from '@chakra-ui/react';
-import { boardRows, testDiagonal } from 'const';
+import { boardRows } from 'const';
 import { usePlayPiece } from 'hooks';
-import { testWin } from 'hooks/usePlayPiece';
+import { testDiagonal, testWin } from 'hooks/usePlayPiece';
 import { FC, useEffect } from 'react';
 import { useRecoilState, useRecoilValue } from 'recoil';
 import {
